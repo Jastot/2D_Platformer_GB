@@ -10,13 +10,14 @@ namespace Platformer_2D
     public class Main : MonoBehaviour
     {
         [SerializeField] private Camera _camera;
-        [SerializeField] private SpriteRenderer _back;
+        [SerializeField] private GameObject _back;
         [SerializeField] private GameObject Player;
         [SerializeField] private Transform PlayersTransform;
         [SerializeField] private SpriteRenderer PlayersSpriteRenderer;
         [SerializeField] private Rigidbody2D PlayersRigidbody2D;
         [SerializeField] private Collider2D PlayersCollider2D;
         [SerializeField] private SpriteAnimationConfig _spriteAnimationConfig;
+        [SerializeField] private GameObject backPrefab;
         private Controllers _controllers;
 
         private void Start()
@@ -37,7 +38,7 @@ namespace Platformer_2D
             
             _controllers = new Controllers();
             //_controllers.Add(new SpriteAnimator());
-            _controllers.Add(new ParalaxManager(_camera.transform, _back.transform));
+            _controllers.Add(new ParalaxManager(_camera, _back,backPrefab));
             //SomeConfig config = Resources.Load("SomeConfig", typeof(SomeConfig))as   SomeConfig;
             //load some configs here <3>
 
