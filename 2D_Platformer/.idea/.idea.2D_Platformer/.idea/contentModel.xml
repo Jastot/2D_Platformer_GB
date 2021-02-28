@@ -19,6 +19,18 @@
             <e p="Controllers.cs" t="Include" />
             <e p="Main.cs" t="Include" />
           </e>
+          <e p="Enemies" t="Include">
+            <e p="Gun" t="Include">
+              <e p="BulletsForCannon" t="Include">
+                <e p="BulletEmmiter.cs" t="Include" />
+                <e p="BulletLogic.cs" t="Include" />
+                <e p="BulletView.cs" t="Include" />
+              </e>
+              <e p="Cannon" t="Include">
+                <e p="AimingMuzzle.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Enums" t="Include">
             <e p="Track.cs" t="Include" />
           </e>
@@ -29,8 +41,15 @@
             <e p="IInitialization.cs" t="Include" />
             <e p="ILateExecute.cs" t="Include" />
           </e>
+          <e p="Managers" t="Include">
+            <e p="ObjectOnSceneView.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
+            <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerView.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="VectorUtils.cs" t="Include" />
           </e>
         </e>
       </e>
