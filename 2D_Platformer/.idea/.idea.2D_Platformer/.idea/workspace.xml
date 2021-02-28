@@ -2,12 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb7b2e0-c9a8-4c18-99d9-59fc41c276b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Back.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Back.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cannon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cannon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Saw.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Saw.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/AimingMuzzle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/AimingMuzzle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectOnSceneView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectOnSceneView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/VectorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/VectorUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Back.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Back.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Mac 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Mac 512.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Saw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Saw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/eye 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/eye 512.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +54,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/20/6f3a823d/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53FA4D04-FF9E-437D-AC8E-1BA5C15E99CE/28/8c0d9abf/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A555715E-F291-462E-B190-C2C939543F55/c1/72961862/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/85/78a67988/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/dd/cc3b36ba/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A555715E-F291-462E-B190-C2C939543F55/ef/f08ea723/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -47,10 +77,20 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Paralax/SpriteAnimationConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Animations/Animator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Animations/SpriteAnimator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Animations/SpriteAnimationConfig.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/VectorUtils.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PoolManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletsForCannonPull.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectOnSceneView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/CannonView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/AimingMuzzle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ok7AfbhYO4Yo5QRL5Ee0YZjtBD" />
@@ -82,10 +122,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17004">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17004" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -102,6 +142,11 @@
       <updated>1613818592945</updated>
       <workItem from="1613818599461" duration="10226000" />
       <workItem from="1613914098504" duration="9531000" />
+      <workItem from="1614268896653" duration="594000" />
+      <workItem from="1614327028083" duration="3830000" />
+      <workItem from="1614410099329" duration="7184000" />
+      <workItem from="1614435009392" duration="1694000" />
+      <workItem from="1614498982878" duration="2957000" />
     </task>
     <servers />
   </component>
