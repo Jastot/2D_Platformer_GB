@@ -37,7 +37,6 @@ namespace Enemies.Gun.BulletsForCannon
                 _currentIndex++;
                 if (_currentIndex >= _bullets.Count) _currentIndex = 0;
             }
-            _bullets.ForEach(b => b.Execute(deltaTime));
         }
 
     }

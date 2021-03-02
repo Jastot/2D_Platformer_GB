@@ -2,39 +2,494 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb7b2e0-c9a8-4c18-99d9-59fc41c276b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cannon.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cannon.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Saw.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Saw.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/AimingMuzzle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/AimingMuzzle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectOnSceneView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectOnSceneView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/VectorUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/VectorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/IceMatrial.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/IceMatrial.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BushOfDeath.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BushOfDeath.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/WinZone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/WinZone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/CoinAnimatorConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/CoinAnimatorConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelCompleteController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelCompleteController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ContactPoller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ContactPoller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Bush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Bush.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Winter Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Winter Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Mace.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Mace.ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Saw.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Saw.ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Spike.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Spike.ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Mace.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Mace.eps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Saw.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Saw.eps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Spike.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Spike.eps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mac 128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mac 128.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mace.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Saw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Saw.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Left&amp;down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Left&amp;down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Eyelid 256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Eyelid 256.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mac 256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mac 256.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mace.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Pupil 256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Pupil 256.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Saw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Saw.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/eye 256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/eye 256.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Left&amp;Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Left&amp;Right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Left&amp;Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Left&amp;Right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 ).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View Body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View Body.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace-Chain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace-Chain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View Body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View Body.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace-Chain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace-Chain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View Body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View Body.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace-Chain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace-Chain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/Mace Preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/Mace Preview.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/ai/Environment.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/ai/Environment.ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/eps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/eps/Environment.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/eps/Environment.eps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024/Environment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024/Environment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048/Environment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048/Environment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512/Environment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512/Environment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 ).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Bush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Bush.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Bush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Bush.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Winter Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Winter Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Bush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Bush.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Bush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Bush.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Winter Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Winter Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/Coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/Coin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/Grass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffMid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffMid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassColumn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassColumn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight&amp;Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight&amp;Left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassMid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassMid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/Grass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffMid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffMid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassColumn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassColumn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight&amp;Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight&amp;Left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2 DownShadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassMid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassMid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassRight.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Back.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Back.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpriteAnimationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SpriteAnimationConfig.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Bush.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Bush.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Tree.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Tree.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/NewBackground2048x1536.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/NewBackground2048x1536.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Eyelid 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Eyelid 512.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Mac 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Mac 512.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Mace.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Mace.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Pupil 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Pupil 512.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Saw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Saw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/eye 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/eye 512.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/GUI/Elements1024x512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GUI/Elements1024x512.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/GUI/Empty1024x1024.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GUI/Empty1024x1024.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/GUI/Iconic2048x2048.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GUI/Iconic2048x2048.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/Grass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/Grass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffLeft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffMid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffMid.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffRight.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassColumn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassColumn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2 DownShadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2 DownShadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft&amp;Right.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft&amp;Right.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2 DownShadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2 DownShadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassLeft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassMid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassMid.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassRight.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,15 +536,22 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/VectorUtils.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PoolManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletsForCannonPull.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectOnSceneView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/CannonView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/Cannon/AimingMuzzle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ContactPoller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsStruct.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerStruct.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelCompleteController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" />
     </changedPaths>
   </component>
@@ -104,7 +566,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -122,10 +584,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12952">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12952" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -147,6 +609,7 @@
       <workItem from="1614410099329" duration="7184000" />
       <workItem from="1614435009392" duration="1694000" />
       <workItem from="1614498982878" duration="2957000" />
+      <workItem from="1614681342217" duration="15749000" />
     </task>
     <servers />
   </component>
