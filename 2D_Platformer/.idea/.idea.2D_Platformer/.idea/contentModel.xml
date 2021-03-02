@@ -15,8 +15,13 @@
             <e p="SpriteAnimator.cs" t="Include" />
             <e p="SpritesSequence.cs" t="Include" />
           </e>
+          <e p="Coins" t="Include">
+            <e p="CoinsManager.cs" t="Include" />
+            <e p="CoinsView.cs" t="Include" />
+          </e>
           <e p="Controllers" t="Include">
             <e p="Controllers.cs" t="Include" />
+            <e p="LevelCompleteController.cs" t="Include" />
             <e p="Main.cs" t="Include" />
           </e>
           <e p="Enemies" t="Include">
@@ -43,8 +48,10 @@
           </e>
           <e p="Managers" t="Include">
             <e p="ObjectOnSceneView.cs" t="Include" />
+            <e p="ObjectView.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="ContactPoller.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerView.cs" t="Include" />
           </e>

@@ -10,10 +10,8 @@ namespace Platformer_2D
         //private GameObject _backs;
         private List<Vector3> _backStartPosition;
         private Vector3 _cameraStartPosition;
-        private const float _coef = 0.3f;
+        private const float _coef = 0.5f;
 
-
-        private float _backPositionCoef = 1.8f;
 
         public ParalaxManager(Camera camera,List<Transform> back)
         {

@@ -1,89 +1,83 @@
 ﻿using Enums;
+using Managers;
 using Platformer_2D;
 using UnityEngine;
 using Utils;
 
 namespace Player
 {
-    public class PlayerMovement: IExecute
-    { 
-        private const float _walkSpeed = 3f;
-        private const float _animationsSpeed = 10f;
-        private const float _jumpStartSpeed = 8f;
-        private const float _movingThresh = 0.1f;
-        private const float _flyThresh = 1f;
-        private const float _groundLevel = 0.5f;
-        private const float _g = -10f;       
-            
-        private Vector3 _leftScale = new Vector3(-1, 1, 1);
+    public class PlayerMovement: ILateExecute
+   {
+       private const string _verticalAxisName = "Vertical";
+       private const string _horizontalAxisName = "Horizontal";
+
+       private const float _animationsSpeed = 10;
+       private const float _walkSpeed = 150;
+       private const float _jumpForse = 350;
+       private const float _jumpThresh = 0.1f;
+       private const float _flyThresh = 1f;
+       private const float _movingThresh = 0.1f;
+       
+       private Vector3 _leftScale = new Vector3(-1, 1, 1);
         private Vector3 _rightScale = new Vector3(1, 1, 1);
 
-        private float _yVelocity;
         private bool _doJump;
-        private float _xAxisInput;
+        private float _goSideWay = 0;
 
-        private PlayerView _view;
+
+        private ObjectOnSceneView _view;
         private SpriteAnimator _spriteAnimator;
         private readonly Camera _camera;
+        private ContactPoller _contactsPoller;
 
-        public PlayerMovement(PlayerView view, SpriteAnimator spriteAnimator, Camera camera)
+        public PlayerMovement(ObjectOnSceneView view, SpriteAnimator spriteAnimator, Camera camera)
         {
             _view = view;
             _spriteAnimator = spriteAnimator;
             _camera = camera;
+            _contactsPoller = new ContactPoller(_view.Collider2D);
         }
-
-        private void GoSideWay()
+        public void LateExecute(float deltaTime)
         {
-            _view.Transform.position += Vector3.right * (Time.deltaTime * _walkSpeed * (_xAxisInput < 0 ? -1 : 1));
-            _view.Transform.localScale = (_xAxisInput < 0 ? _leftScale : _rightScale);
-        }
+            _doJump = Input.GetAxis(_verticalAxisName) > 0;
+            _goSideWay = Input.GetAxis(_horizontalAxisName);
+            _contactsPoller.Execute(deltaTime);
 
-        public bool IsGrounded()
-        {
-            return _view.Transform.position.y <= _groundLevel + float.Epsilon && _yVelocity<=0;
-        }
-        
-        public void Execute(float deltaTime)
-        {
-            _doJump = Input.GetAxis("Vertical") > 0;
-            _xAxisInput = Input.GetAxis("Horizontal");
-            var goSideWay = Mathf.Abs(_xAxisInput) > _movingThresh;
+            var walks = Mathf.Abs(_goSideWay) > _movingThresh;
 
-            if (IsGrounded())
+            if(walks) _view.SpriteRenderer.flipX = _goSideWay < 0;
+            var newVelocity = 0f;
+            if (walks && 
+                (_goSideWay > 0 || !_contactsPoller.HasLeftContacts) && 
+                (_goSideWay < 0 || !_contactsPoller.HasRightContacts))
             {
-                //walking
-                if (goSideWay) GoSideWay();
-                _spriteAnimator.StartAnimation(_view.SpriteRenderer, goSideWay?Track.Run:Track.Idle, true, _animationsSpeed);
-
-                //start jump
-                if (_doJump && _yVelocity == 0)
-                {
-                    
-                    _yVelocity = _jumpStartSpeed;
-                }
-                //stop jump
-                else if(_yVelocity < 0)
-                {
-                    _yVelocity = 0;
-                    _view.Transform.position = _view.Transform.position.Change(y: _groundLevel);
-                }
+                newVelocity = Time.fixedDeltaTime * _walkSpeed * 
+                              (_goSideWay < 0 ? -1 : 1);
             }
-            else
+            _view.Rigidbody2D.velocity = _view.Rigidbody2D.velocity.Change(
+                x: newVelocity);
+            if (_contactsPoller.IsGrounded && _doJump && 
+                Mathf.Abs(_view.Rigidbody2D.velocity.y) <= _jumpThresh)
             {
-                //flying
-                if (goSideWay) GoSideWay();
-                if (Mathf.Abs(_yVelocity) > _flyThresh)
-                {
-                    _spriteAnimator.StartAnimation(_view.SpriteRenderer, Track.Jump, true, _animationsSpeed);
-                }
-                _yVelocity += _g * Time.deltaTime;
-                _view.Transform.position += Vector3.up * (Time.deltaTime * _yVelocity);
+                _view.Rigidbody2D.AddForce(Vector3.up * _jumpForse);
             }
-            //так. не понимаю почему у камеры не меняется позиция....
-            _camera.transform.position.Change(_view.Transform.position.x);
-            _camera.transform.position.Change(y: _view.Transform.position.y);
-            _camera.nearClipPlane = 0;
-        }
-    }
+
+            //animations
+            if (_contactsPoller.IsGrounded)
+            {
+                var track = walks ? Track.Run:Track.Idle;
+                _spriteAnimator.StartAnimation(_view.SpriteRenderer, track, true, 
+                    _animationsSpeed);
+            }
+            else if(Mathf.Abs(_view.Rigidbody2D.velocity.y) > _flyThresh)
+            {
+                var track = Track.Jump;
+                _spriteAnimator.StartAnimation(_view.SpriteRenderer, track, true, 
+                    _animationsSpeed);
+            }
+            _camera.transform.position = _camera.transform.position.Change(_view.Transform.position.x);
+            _camera.transform.position = _camera.transform.position.Change(y: _view.Transform.position.y);
+            _camera.nearClipPlane = 0; 
+        } 
+   }
 }
