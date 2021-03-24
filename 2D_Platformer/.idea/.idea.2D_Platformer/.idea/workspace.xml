@@ -2,494 +2,686 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb7b2e0-c9a8-4c18-99d9-59fc41c276b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/IceMatrial.physicsMaterial2D" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/IceMatrial.physicsMaterial2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BushOfDeath.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BushOfDeath.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/WinZone.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/WinZone.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/CoinAnimatorConfig.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/CoinAnimatorConfig.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelCompleteController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelCompleteController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ObjectView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ContactPoller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ContactPoller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Bush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Bush.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Autumn Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Winter Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Winter Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Mace.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Mace.ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Saw.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Saw.ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Spike.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/ai/Spike.ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Mace.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Mace.eps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Saw.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Saw.eps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Spike.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/eps/Spike.eps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mac 128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mac 128.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mace.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Saw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Saw.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Left&amp;down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Left&amp;down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Up.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Eyelid 256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Eyelid 256.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mac 256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mac 256.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Mace.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Pupil 256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Pupil 256.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Saw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/Saw.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/eye 256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/256x256/eye 256.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Left&amp;Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Left&amp;Right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/32x32/Spike_Up.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Left&amp;Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Left&amp;Right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/64x64/Spike_Up.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 ).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View Body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View Body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/2D Mace View.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/2D Mac View/eye-5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Chain-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace-Chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace-Chain.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Mace.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/2x/Square.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View Body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View Body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/2D Mace View.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/2D Mac View/eye-5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Chain-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace-Chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace-Chain.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Mace.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/4x/Square.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View Body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View Body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/2D Mace View.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/2D Mace View/eye-5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Chain-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace-Chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace-Chain.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Mace.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/8x/Square.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/Mace Preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Enemies/New Enemy ( Update 1.9 )/Mace Preview.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/ai/Environment.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/ai/Environment.ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/eps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/eps/Environment.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/eps/Environment.eps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024/Environment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/1024x1024/Environment.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048/Environment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/2048x2048/Environment.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512/Environment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/512x512/Environment.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 14.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 15.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/1x/Asset 9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 14.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 15.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/2x/Asset 9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 ).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Bush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Bush.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Bush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Bush.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Winter Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Winter Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Bush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Bush.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Autumn Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Bush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Bush.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Flower-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Winter Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/4x/Winter Tree.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/Coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/Coin.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 14.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 15.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Coin/image 9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/Grass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassCliffRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassColumn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassColumn.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillLeft2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassHillRight2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillLeft2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight&amp;Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight&amp;Left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2&amp;Left2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassJoinHillRight2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/128x128/GrassRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/Grass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassCliffRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassColumn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassColumn.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillLeft2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassHillRight2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillLeft2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight&amp;Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight&amp;Left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2 DownShadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2&amp;Left2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassJoinHillRight2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Spring/256x256/GrassRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/AstarPathfindingProject.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/AstarPathfindingProject.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Behaviors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Behaviors/AIDestinationSetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Behaviors/AIDestinationSetter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Behaviors/Patrol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Behaviors/Patrol.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/CHANGELOG.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AIBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AIBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AILerp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AILerp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AIPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AIPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/IAstarAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/IAstarAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/NavmeshController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/NavmeshController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/Seeker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/Seeker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/TurnBasedAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/TurnBasedAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarMath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarMath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/GraphUpdateScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/GraphUpdateScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/GraphUpdateShape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/GraphUpdateShape.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/AnimationLink.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/AnimationLink.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ArrayPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ArrayPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/AstarDebugger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/AstarDebugger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/BinaryHeap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/BinaryHeap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/Draw.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/Draw.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/EditorResourceHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/EditorResourceHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphEditorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphEditorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphUpdateProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphUpdateProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/GraphUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/HierarchicalGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/HierarchicalGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/Int3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/Int3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ListPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ListPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/MovementUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/MovementUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/NodeLink.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/NodeLink.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/NodeLink2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/NodeLink2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/NodeLink3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/NodeLink3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathInterpolator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathInterpolator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathReturnQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/PathReturnQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/StackPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/StackPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ThreadControlQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/ThreadControlQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/WindowsStoreCompatibility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/WindowsStoreCompatibility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/WorkItemProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Misc/WorkItemProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Nodes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Nodes/GraphNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Nodes/GraphNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Path.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Path.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/PathHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/PathHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/JsonConverters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/JsonConverters.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/JsonSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/JsonSerializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/SimpleJsonReplacement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/SimpleJsonReplacement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/SimpleZipReplacement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/SimpleZipReplacement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/TinyJson.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/Serialization/TinyJson.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/astarclasses.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/astarclasses.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation/documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation/documentation.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation/documentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation/documentation.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Documentation/index.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AIBaseEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AIBaseEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AILerpEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AILerpEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarPathEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarPathEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarPathfindingProjectEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarPathfindingProjectEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarUpdateChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarUpdateChecker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarUpdateWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AstarUpdateWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/AstarEditorSkinDark.guiskin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/AstarEditorSkinDark.guiskin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/AstarEditorSkinLight.guiskin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/AstarEditorSkinLight.guiskin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/colorInterpolationBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/colorInterpolationBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gridPivotSelect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gridPivotSelect.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/headerBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/headerBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect-03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_On.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_On.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3_separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3_separator.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/colorInterpolationBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/colorInterpolationBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/headerBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/headerBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/NavmeshOutline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/NavmeshOutline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/NavmeshOutline.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/NavmeshOutline.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/line_falloff_1px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/line_falloff_1px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/grid.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/grid.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_On.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_On.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_active.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox3_separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox3_separator.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@1x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/tooltips.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/EditorAssets/tooltips.tsv.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/Legacy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/Legacy/LegacyAIPathEditor2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/Legacy/LegacyAIPathEditor2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/Legacy/LegacyEditorHelper2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/Legacy/LegacyEditorHelper2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/ModifierEditors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/SeekerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/SeekerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/Procedural.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/Procedural.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralGridMover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralGridMover.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralGround.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralGround.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralPrefab4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralWorld.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralWorld.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/TopDownOverlay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/TopDownOverlay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/cylinder.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/cylinder.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example15_2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Example2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Example2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/checkerGround.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/checkerGround.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/dynamicObstacle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/dynamicObstacle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ListCubes.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ListCubes.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/PointGraphExample.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/PointGraphExample.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/blackText.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/blackText.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ex5Ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ex5Ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ground.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ground.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/Materials/navmesh-navmesh_example6navmeshMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/Materials/navmesh-navmesh_example6navmeshMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/NavmeshExample.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/NavmeshExample.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/example6.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/example6.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/navmesh.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/navmesh.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example9_Penalties.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example9_Penalties/PenaltiesExample.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example9_Penalties/PenaltiesExample.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/AstarSmoothFollow2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/AstarSmoothFollow2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/DoorController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/DoorController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/DynamicGridObstacle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/DynamicGridObstacle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/MineBotAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/MineBotAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/MineBotAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/MineBotAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/ObjectPlacer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/ObjectPlacer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/TargetMover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/TargetMover.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/AI.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/AI.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueBox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueBox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueCheckerGround.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueCheckerGround.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueGround.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueGround.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/DiffuseAlwaysVisible.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/DiffuseAlwaysVisible.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Door.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Door.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/GroundRTS.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/GroundRTS.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/OrangeGround.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/OrangeGround.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/PathBlueArea.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/PathBlueArea.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/PathGreyCube.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/PathGreyCube.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/PathRedArea.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/PathRedArea.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Projector Light.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Projector Light.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/SomeBox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/SomeBox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff-Reflected.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff-Reflected.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Shadow.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Shadow.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Materials/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/DynamicObstacle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/DynamicObstacle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/Minebot.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/Minebot.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/Minebot_NRM.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/Minebot_NRM.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot-minebot.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot-minebot.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@awake-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@awake-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@back-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@back-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@forward 1-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@forward 1-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@forward-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@forward-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@left-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@left-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@right-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/mine_bot@right-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@awake.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@awake.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@back.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@back.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@forward.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@forward.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@left.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@left.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@right.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/mine_bot@right.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/SomeBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/SomeBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/TargetReachedEffect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Prefabs/TargetReachedEffect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/_Example Scenes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/_Example Scenes.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Base.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Base.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/GridGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/GridGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NavMeshGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NavMeshGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NavmeshBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NavmeshBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/GridNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/GridNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/GridNodeBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/GridNodeBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/PointNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/PointNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/TriangleMeshNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/NodeClasses/TriangleMeshNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/PointGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/PointGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/QuadtreeGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/QuadtreeGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/BBTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/BBTree.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/EuclideanEmbedding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/EuclideanEmbedding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/GraphTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/GraphTransform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/GridLookup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/GridLookup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/NavMeshRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/NavMeshRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/NavmeshTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/NavmeshTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/ObjImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/ObjImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/PointKDTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Generators/Utilities/PointKDTree.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyAIPathEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyAIPathEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyEditorHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyEditorHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyRVOControllerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyRVOControllerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyRichAIEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/Editor/LegacyRichAIEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/LegacyAIPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/LegacyAIPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/MiscLegacy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Legacy/MiscLegacy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/AlternativePath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/AlternativePath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/FunnelModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/FunnelModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/Modifiers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/Modifiers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/RaycastModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/RaycastModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/SimpleSmoothModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/SimpleSmoothModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/StartEndModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Modifiers/StartEndModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Navmesh.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Navmesh/NavmeshUpdates.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Navmesh/NavmeshUpdates.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Navmesh/RelevantGraphSurface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Navmesh/RelevantGraphSurface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/EditorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/EditorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/EditorGUIx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/EditorGUIx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/EnumFlagDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/EnumFlagDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/PackageToolsEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/Editor/PackageToolsEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/EnumFlagAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/EnumFlagAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/UniqueComponentAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/UniqueComponentAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/VersionedMonoBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/PackageTools/VersionedMonoBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Pathfinders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Pathfinders/ABPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Pathfinders/ABPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/DotNetZip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/DotNetZip/DotNetZipLicense.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/DotNetZip/DotNetZipLicense.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/dependencies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Plugins/dependencies.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Readme_upgrading.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Readme_upgrading.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/TurnBased.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/TurnBased/BlockManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/TurnBased/BlockManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/TurnBased/SingleNodeBlocker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/TurnBased/SingleNodeBlocker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarChecksum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarChecksum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarMemory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarMemory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarParallel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarParallel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarProfiler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/AstarProfiler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/DotNetReplacements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/DotNetReplacements.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/Funnel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/Funnel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/GraphGizmoHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/GraphGizmoHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/GraphUpdateUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/GraphUpdateUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/PathUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/PathUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/ProfileHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/ProfileHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/RetainedGizmos.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/RetainedGizmos.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/UnityReferenceHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/UnityReferenceHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/defines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/defines.csv.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/link.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/GenerateLevelView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/GenerateLevelView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/GeneratorLevelController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/GeneratorLevelController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/MarchingSquaresGeneratorLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/MarchingSquaresGeneratorLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/AIPatrolPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/AIPatrolPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/EnemiesConfigurator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/EnemiesConfigurator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/IProtector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/IProtector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/LevelObjectTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/LevelObjectTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/PatrolAIModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/PatrolAIModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/ProtectedZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/ProtectedZone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/ProtectorAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/ProtectorAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/SimplePatrolAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/SimplePatrolAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/SimplePatrolAIModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/SimplePatrolAIModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StalkerAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StalkerAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StalkerAIModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StalkerAIModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_checkerGround3d3aba195e4d26ee.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_checkerGround3d3aba195e4d26ee.terrainlayer.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D_Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpriteAnimationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SpriteAnimationConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animations/ParalaxManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletEmmiter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Gun/BulletsForCannon/BulletLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 10.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 11.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 12.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 13.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 14.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 15.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 6.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 8.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/4x/Asset 9.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/512x512/Cloud_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Bush.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Bush.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Flower-3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Tree.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/8x/Tree.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BackGround/NewBackground2048x1536.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/BackGround/NewBackground2048x1536.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Eyelid 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Eyelid 512.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Mac 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Mac 512.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Mace.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Mace.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Pupil 512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Pupil 512.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Enemy/Saw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Enemy/Saw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GUI/Elements1024x512.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GUI/Elements1024x512.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GUI/Empty1024x1024.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GUI/Empty1024x1024.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GUI/Iconic2048x2048.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GUI/Iconic2048x2048.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/Grass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/Grass.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffLeft.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffMid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffMid.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassCliffRight.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassColumn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassColumn.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2 DownShadow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillLeft2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2 DownShadow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassHillRight2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft&amp;Right.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft&amp;Right.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2 DownShadow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillLeft2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2 DownShadow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2 DownShadow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2&amp;Left2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassJoinHillRight2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassLeft.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassMid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassMid.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spring/512x512/GrassRight.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2D_Platformer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2D_Platformer.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,7 +709,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/ParalaxManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/Controller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ICleanData.cs" />
@@ -553,6 +744,22 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Coins/CoinsManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelCompleteController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/Main.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/AIConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/LevelObjectTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/ProtectedZone.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/AIPatrolPath.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/IProtector.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StartProtection.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/PatrolAIModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StalkerAIModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/ProtectorAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/SimplePatrolAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/StalkerAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/EnemiesConfigurator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PatrollAI/SimplePatrolAIModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/GeneratorLevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/MarchingSquaresGeneratorLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GenerateLevel/GenerateLevelView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ok7AfbhYO4Yo5QRL5Ee0YZjtBD" />
@@ -584,10 +791,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12952">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12952" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -610,6 +817,8 @@
       <workItem from="1614435009392" duration="1694000" />
       <workItem from="1614498982878" duration="2957000" />
       <workItem from="1614681342217" duration="15749000" />
+      <workItem from="1616330459842" duration="5062000" />
+      <workItem from="1616606394278" duration="2296000" />
     </task>
     <servers />
   </component>
