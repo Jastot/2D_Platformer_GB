@@ -254,6 +254,9 @@
             <e p="IExecute.cs" t="Include" />
             <e p="IInitialization.cs" t="Include" />
             <e p="ILateExecute.cs" t="Include" />
+            <e p="IQuest.cs" t="Include" />
+            <e p="IQuestModel.cs" t="Include" />
+            <e p="IQuestStory.cs" t="Include" />
           </e>
           <e p="Managers" t="Include">
             <e p="ObjectOnSceneView.cs" t="Include" />
@@ -276,6 +279,17 @@
             <e p="ContactPoller.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerView.cs" t="Include" />
+          </e>
+          <e p="Quest" t="Include">
+            <e p="Quest.cs" t="Include" />
+            <e p="QuestConfig.cs" t="Include" />
+            <e p="QuestItemsConfig.cs" t="Include" />
+            <e p="QuestObjectView.cs" t="Include" />
+            <e p="QuestsConfigurator.cs" t="Include" />
+            <e p="QuestStory.cs" t="Include" />
+            <e p="QuestStoryConfig.cs" t="Include" />
+            <e p="ResettableQuestStory.cs" t="Include" />
+            <e p="SwitchQuestModel.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
             <e p="VectorUtils.cs" t="Include" />
